@@ -5,7 +5,7 @@ namespace apiERP;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;
 
-class ERP {
+class apiERP {
     private $client;
     
     //WEBSERVICES URL

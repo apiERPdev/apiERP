@@ -3,7 +3,7 @@
         'name' => 'luisito-programa/apierp',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'dc971d7370f3284745e956ddd561e8bc94512495',
+        'reference' => '8820e3e9338eb848f6e172c71bf58407507974c3',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -40,7 +40,7 @@
         'luisito-programa/apierp' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'dc971d7370f3284745e956ddd561e8bc94512495',
+            'reference' => '8820e3e9338eb848f6e172c71bf58407507974c3',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
