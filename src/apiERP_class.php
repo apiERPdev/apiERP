@@ -36,13 +36,13 @@ class ERP {
             $ws_url = $this->getWebservices($key);
 
             if ($async) {
-                // Ejecuci�n en segundo plano
+                // Ejecución en segundo plano
                 $this->client->postAsync($ws_url, [
                     'json' => $data,
                     'headers' => [
                         'Content-Type' => 'application/json',
                     ],
-                    'timeout' => 1, // Tiempo m�ximo para enviar la solicitud
+                    'timeout' => 1, // Tiempo máximo para enviar la solicitud
                 ])->then(
                     function ($response) {
                         // Opcional: Manejar respuesta en segundo plano
@@ -50,8 +50,8 @@ class ERP {
                     function ($exception) {
                         error_log("Error en solicitud as�ncrona: " . $exception->getMessage());
                     }
-                )->wait(false); // No esperar la finalizaci�n
-                return null; // No devuelve datos en modo as�ncrono
+                )->wait(false); // No esperar la finalización
+                return null; // No devuelve datos en modo asíncrono
             } else {
                 $response = $this->client->post($ws_url, [
                     'json' => $data,
