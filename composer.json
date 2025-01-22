@@ -1,0 +1,14 @@
+{
+    "name": "luisito-programa/apierp",
+    "description": "apiERP te brinda todas las herramientas necesarias para construir un ERP adaptado a las necesidades de tus clientes en tiempo récord!",
+    "type": "library",
+    "require": {
+        "php": ">=8.2",
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "apiERP\\": "src/"
+        }
+    }
+}
