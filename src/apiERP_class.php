@@ -8,7 +8,7 @@ use GuzzleHttp\Exception\RequestException;
 class ERP {
     private $client;
     
-    //WEBSERVICES ACTIVE 1.0
+    //WEBSERVICES URL
     private static $webservices = [
         'ws_getCalculos' => "https://luisitoprograma.com/api/invoice/peru/calc/",
         'ws_generarPdf' => "https://luisitoprograma.com/api/pdf/create/",
